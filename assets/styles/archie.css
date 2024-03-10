@@ -30,68 +30,101 @@
     --heading-two: 25px;
 }
 
-.headerh222fa673a781ab9e .navbar-light .navbar-nav .active>.nav-link{
-    color: #001931;
+/*headerh222fa673a781ab9e*/
+.headerh222fa673a781ab9e .navbar-light .navbar-nav .active>.nav-link {
+    color: var(--black-Color);
 }
-.headerh222fa673a781ab9e .fa{
+
+.headerh222fa673a781ab9e .navbar-light .navbar-nav .active>.nav-link:hover {
+    color: var(--secondary-Color);
+}
+
+.headerh222fa673a781ab9e .fa {
     display: none;
 }
 
-.aboutd1e3f52aae36e7047 .btn-outline-secondary{
-    
+/*aboutd1e3f52aae36e7047*/
+.aboutd1e3f52aae36e7047 .DescriptionHeading {
+    font-size: 60px;
 }
 
+.aboutd1e3f52aae36e7047 .btn-outline-secondary,
+.aboutd1e3f52aae36e7047 .btn-outline-secondary:hover {
+    color: var(--black-Color);
+    border-color: var(--secondary-Color);
+    background-color: var(--secondary-Color);
+}
 
+/*freyategxpfzk1ni*/
+.freyategxpfzk1ni .fdb-block {
+    padding: 0px;
+}
 
+.freyategxpfzk1ni .fdb-block img+h2 {
+    margin-top: 10px;
+    font-size: var(--heading-two);
+}
 
+/*sliders1fae57451461b568*/
+.sliders1fae57451461b568 {
+    padding: 4rem;
+}
 
+.sliders1fae57451461b568 h3 {
+    font-size: var(--heading-two);
+    font-weight: 400;
+}
 
+.sliders1fae57451461b568 .btnStyle {
+    background-color: var(--secondary-Color);
+}
 
+.sliders1fae57451461b568 .icon {
+    color: var(--black-Color);
+}
 
+.sliders1fae57451461b568 .text-success {
+    color: var(--secondary-Color) !important;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*testimonialtmrwms6esfu*/
+.testimonialtmrwms6esfu .fdb-block {
+    padding: 0px;
+}
+.testimonialtmrwms6esfu .fdb-block .fdb-touch {
+    border-top: solid 0.3125rem rem var(--warning-Color)
+}
+.testimonialtmrwms6esfu .fdb-block .fdb-box {
+    padding: 2.75rem 2.5rem;
+}
+/*bannerd1342044aebb0112*/
+.bannerd1342044aebb0112 .bannerBG {
+    background: var(--white-Color);
+}
+.bannerd1342044aebb0112 h2 {
+    font-size: var(--heading-two);
+}
+/*teamtmpxpt1wbh8*/
+.teamtmpxpt1wbh8 .fdb-block {
+    padding: 5.5rem 0
+}
+.teamtmpxpt1wbh8 h1 {
+    font-size: var(--heading);
+}
+.teamtmpxpt1wbh8 h4 {
+    font-size: var(--heading-two);
+    font-weight: var(--button-font-weight);
+}
+/*footerbf5e57dc82a907a3*/
+.footerbf5e57dc82a907a3 .BG {
+    background-color: var(--text-Color);
+}
+.footerbf5e57dc82a907a3 .font-weight-bold {
+    font-weight: 400 !important;
+}
+.footerbf5e57dc82a907a3 h6 {
+    font-size: 20px;
+}
+.footerbf5e57dc82a907a3 .fab {
+    margin-left: 40px;
+}
