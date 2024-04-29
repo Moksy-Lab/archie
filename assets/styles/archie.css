@@ -26,7 +26,7 @@
     --heading-medium: 25px;
     --paragraph: 18px;
     --logo-border-radius: 15px;
-    --jumbotron-padding: 50px 6px;
+    --jumbotron-padding: 40px 6px;
     --section-padding:30px 0px;
 }
 .fdb-block {
@@ -38,12 +38,15 @@
 .headerh222fa673a781ab9e .navbar-light .navbar-nav .nav-link {
     color: var(--black-Color);
 }
-
 .headerh222fa673a781ab9e .navbar-light .navbar-nav .active>.nav-link:hover,
 .headerh222fa673a781ab9e .navbar-light .navbar-nav .nav-link:hover {
     color: var(--secondary-Color);
 }
-
+.headerh222fa673a781ab9e .image-custom-class{
+    max-width: 60px !important;
+    max-height: 60px !important;
+    border-radius: var(--logo-border-radius);
+}
 .headerh222fa673a781ab9e .fa {
     display: none;
 }
@@ -66,7 +69,13 @@
 .aboutd1e3f52aae36e7047 .text-secondary{
     font-size: var(--paragraph);
 }
+.aboutd1e3f52aae36e7047 .jumbotron{
+    padding: var(--jumbotron-padding);
+}
 /*freyategxpfzk1ni*/
+.freyategxpfzk1ni{
+    padding: var(--section-padding);
+}
 .freyategxpfzk1ni .fdb-block {
     padding: 0px;
 }
@@ -80,7 +89,7 @@
 }
 /*sliders1fae57451461b568*/
 .sliders1fae57451461b568 {
-    padding: 4rem;
+    padding: var(--section-padding);
 }
 
 .sliders1fae57451461b568 h3 {
@@ -106,7 +115,15 @@
 .sliders1fae57451461b568 .card img{
     margin-left: 0px;
 }
+.sliders1fae57451461b568 .pb-5,
+.sliders1fae57451461b568 .pt-5{
+    padding-bottom: 0rem !important;
+    padding-top: 0rem !important;
+}
 /*testimonialtmrwms6esfu*/
+.testimonialtmrwms6esfu{
+    padding: var(--section-padding);
+}
 .testimonialtmrwms6esfu .fdb-block {
     padding: 0px;
 }
@@ -120,6 +137,9 @@
     font-size: var(--paragraph);
 }
 /*bannerd1342044aebb0112*/
+.bannerd1342044aebb0112{
+    padding: var(--section-padding);
+}
 .bannerd1342044aebb0112 .bannerBG {
     background: var(--white-Color);
 }
@@ -130,8 +150,11 @@
     font-size: var(--paragraph);
 }
 /*teamtmpxpt1wbh8*/
+.testimonialtmrwms6esfu{
+    padding: var(--section-padding);
+}
 .teamtmpxpt1wbh8 .fdb-block {
-    padding: 5.5rem 0
+    padding: 0rem 0
 }
 .teamtmpxpt1wbh8 h1 {
     font-size: var(--heading-large);
@@ -147,6 +170,9 @@
     margin-left: -15px;
 }
 /*formb82afc6a8fccd8a0*/
+.formb82afc6a8fccd8a0{
+    padding: var(--section-padding);
+}
 .formb82afc6a8fccd8a0 .fdb-block {
     padding: 0px;
 }
@@ -182,4 +208,7 @@
 }
 .footerbf5e57dc82a907a3 .fab {
     margin-left: 40px;
+}
+.footerbf5e57dc82a907a3 .mb-5{
+    margin-bottom: 1rem !important;
 }
