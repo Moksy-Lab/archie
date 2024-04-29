@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-
-.fdb-block {
-    padding: 30px 0;
-}
-
 * {
     font-family: "Poppins", sans-serif;
 }
@@ -26,8 +21,16 @@
     --button-padding: 13px 30px;
     --button-border-radius: 5px;
     --button-font-weight: 500;
-    --heading: 35px;
-    --heading-two: 25px;
+    --heading:60px;
+	--heading-large: 35px;
+    --heading-medium: 25px;
+    --paragraph: 18px;
+    --logo-border-radius: 15px;
+    --jumbotron-padding: 50px 6px;
+    --section-padding:30px 0px;
+}
+.fdb-block {
+    padding: 0rem 0;
 }
 
 /*headerh222fa673a781ab9e*/
@@ -47,9 +50,12 @@
 
 /*aboutd1e3f52aae36e7047*/
 .aboutd1e3f52aae36e7047 .DescriptionHeading {
-    font-size: 60px;
+    font-size: var(--heading);
 }
-
+.aboutd1e3f52aae36e7047 .DescriptionPara{
+    font-size: var(--paragraph);
+    color: var(--grey-Color);
+}
 .aboutd1e3f52aae36e7047 .btn-outline-secondary,
 .aboutd1e3f52aae36e7047 .btn-outline-secondary:not(:disabled):not(.disabled):active,
 .aboutd1e3f52aae36e7047 .btn-outline-secondary:hover {
@@ -57,7 +63,9 @@
     border-color: var(--secondary-Color);
     background-color: var(--secondary-Color);
 }
-
+.aboutd1e3f52aae36e7047 .text-secondary{
+    font-size: var(--paragraph);
+}
 /*freyategxpfzk1ni*/
 .freyategxpfzk1ni .fdb-block {
     padding: 0px;
@@ -65,16 +73,18 @@
 
 .freyategxpfzk1ni .fdb-block img+h2 {
     margin-top: 10px;
-    font-size: var(--heading-two);
+    font-size: var(--heading-medium);
 }
-
+.freyategxpfzk1ni .fdb-block p {
+    font-size: var(--paragraph);
+}
 /*sliders1fae57451461b568*/
 .sliders1fae57451461b568 {
     padding: 4rem;
 }
 
 .sliders1fae57451461b568 h3 {
-    font-size: var(--heading-two);
+    font-size: var(--heading-large);
     font-weight: 400;
 }
 
@@ -89,7 +99,10 @@
 .sliders1fae57451461b568 .text-success {
     color: var(--secondary-Color) !important;
 }
-
+.sliders1fae57451461b568 .card-text{
+    margin-left: -20px;
+    font-size: var(--paragraph);
+}
 /*testimonialtmrwms6esfu*/
 .testimonialtmrwms6esfu .fdb-block {
     padding: 0px;
@@ -100,12 +113,18 @@
 .testimonialtmrwms6esfu .fdb-block .fdb-box {
     padding: 2.75rem 2.5rem;
 }
+.testimonialtmrwms6esfu .h5{
+    font-size: var(--paragraph);
+}
 /*bannerd1342044aebb0112*/
 .bannerd1342044aebb0112 .bannerBG {
     background: var(--white-Color);
 }
 .bannerd1342044aebb0112 h2 {
-    font-size: var(--heading-two);
+    font-size: var(--heading-large);
+}
+.bannerd1342044aebb0112 p {
+    font-size: var(--paragraph);
 }
 /*teamtmpxpt1wbh8*/
 .teamtmpxpt1wbh8 .fdb-block {
