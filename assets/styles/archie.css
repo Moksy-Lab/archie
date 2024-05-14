@@ -43,7 +43,8 @@
     color: var(--secondary-Color);
 }
 .headerh222fa673a781ab9e .image-custom-class{
-    max-height: 60px !important;
+    height: 80px !important;
+    width: 70px !important;
     border-radius: var(--logo-border-radius);
 }
 .headerh222fa673a781ab9e .fa {
